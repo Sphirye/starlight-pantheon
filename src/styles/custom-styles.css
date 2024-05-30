@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Cookie Run';
+    src: url('../assets/cookie-run-typeface/CookieRunFont_OTF/CookieRunRegular.otf') format('opentype');
+}
+
+* {
+    font-family: 'Cookie Run', sans-serif;
+}
+
+.cookie-run-font {
+    font-family: 'Cookie Run', 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}

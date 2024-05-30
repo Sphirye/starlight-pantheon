@@ -3,18 +3,14 @@
     <v-responsive>
 
       <v-row justify="center">
-        <v-col cols="3">
-          <v-img src="@/assets/laying_starfruit_cookie.webp"/>
+        <v-col cols="3" class="d-flex flex-column align-center justify-center">
+          <v-img width="200px" src="@/assets/laying_starfruit_cookie.webp"/>
+
+          <div class="text-center text-no-wrap cookie-run-font">
+            Under Construction...
+          </div>
         </v-col>
       </v-row>
-
-      <div class="py-4"/>
-
-      <div class="text-center">
-        <div class="text-body-1 font-weight-light mb-n1">
-          Under Construction...
-        </div>
-      </div>
 
     </v-responsive>
   </v-container>
