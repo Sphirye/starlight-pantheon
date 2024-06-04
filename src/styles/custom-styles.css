@@ -1,14 +1,38 @@
 @font-face {
-    font-family: 'Cookie Run';
+    font-family: 'Cookie Run Regular';
     src: url('../assets/cookie-run-typeface/CookieRunFont_OTF/CookieRunRegular.otf') format('opentype');
 }
 
-* {
-    font-family: 'Cookie Run', sans-serif;
+@font-face {
+    font-family: 'Cookie Run Bold';
+    src: url('../assets/cookie-run-typeface/CookieRunFont_OTF/CookieRunBold.otf') format('opentype');
 }
 
-.cookie-run-font {
-    font-family: 'Cookie Run', 'Work Sans', sans-serif;
-    font-size: 30px;
+* {
+    font-family: 'Cookie Run Regular', sans-serif;
+}
+
+.cr-text-regular {
+    font-family: 'Cookie Run Regular', 'Work Sans', sans-serif;
     font-weight: 900;
+}
+
+.cr-text-bold {
+    font-family: 'Cookie Run Bold', 'Work Sans', sans-serif;
+    font-weight: 900;
+}
+
+
+
+.text-size-20 {
+    font-size: 20px !important;
+}
+
+.text-size-30 { 
+    font-size: 30px !important;
+    line-height: 30px !important;
+}
+
+.text-size-40 {
+    font-size: 40px !important;
 }
