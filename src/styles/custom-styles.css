@@ -23,14 +23,25 @@
 }
 
 
+.text-size-15 {
+    font-size: 15px !important;
+}
 
 .text-size-20 {
     font-size: 20px !important;
 }
 
+.text-size-25 {
+    font-size: 25px !important;
+}
+
 .text-size-30 { 
     font-size: 30px !important;
     line-height: 30px !important;
+}
+
+.text-size-35 { 
+    font-size: 35px !important;
 }
 
 .text-size-40 {
